@@ -27,7 +27,9 @@ int _printf(const char *format, ...)
 				if (test == NULL)
 				{
 					write(1, &format[i], 1);
-					i++;
+					write(1, &format[i + 1], 1);
+					i += 2;
+					len++;
 					continue;
 				}
 				len_func += test(arg_list);

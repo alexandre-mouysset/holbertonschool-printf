@@ -35,7 +35,7 @@ int main(void)
 
 	/* test */
 	t = _printf("%!\n");
-	printf("%!\n");
+	printf("%d", t);
 
 
 	return (0);
