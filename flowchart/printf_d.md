@@ -4,7 +4,7 @@ flowchart TD
     read --> negative{number < 0?}
     negative -->|Yes| print_minus[print minus]
     print_minus --> positive[make number positive]
-    negative -->|No| positive
+    negative -->|No| division
     positive --> division[divide]
     division --> loop{divisor not zero?}
     loop -->|Yes| print_digit[print digit]

@@ -1,6 +1,6 @@
 ```mermaid
 flowchart TD
-    start((printf_c)) --> getchar[read char]
+    start((printf_c)) --> getchar[read char from list   ]
     getchar --> printchar[print char]
-    putchar --> returnchar[return 1]
+    printchar --> returnchar[return 1]
 ```
