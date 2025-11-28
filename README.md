@@ -16,15 +16,20 @@ All the files are written with the [Betty coding style](https://www.holbertonsch
 | File name          | % | Description                                                                  |
 | -----------------: | :--: | ---------------------------------------------------------------------------- |
 | [_printf.c](https://github.com/tomvieilledent/holbertonschool-printf/blob/main/_printf.c)          |      | Contains the main function `_printf()`                                       |
-| [get_format.c](https://github.com/tomvieilledent/holbertonschool-printf/blob/main/get_format.c)     |      | `get_format()` checks format and calls the function needed |
+| [get_format.c](https://github.com/tomvieilledent/holbertonschool-printf/blob/main/get_format.c)     |      | `get_format()` checks \*format and calls the function needed |
 | [printf_c.c](https://github.com/tomvieilledent/holbertonschool-printf/blob/main/printf_c.c)       | %c |  Contains `printf_c()` that prints a character                   |
 | [printf_s.c](https://github.com/tomvieilledent/holbertonschool-printf/blob/main/printf_s.c)     | %s | Contains `printf_s()`that prints a string
 [printf_d.c](https://github.com/tomvieilledent/holbertonschool-printf/blob/main/printf_d.c)     | %d %i | Contains `printf_d()`that prints an integer                     |
-| [printf_37.c](https://github.com/tomvieilledent/holbertonschool-printf/blob/main/printf_37.c)         | %% | Contains `printf_37()`that printf '%'                              |
+| [printf_b.c](https://github.com/tomvieilledent/holbertonschool-printf/blob/main/printf_b.c)         | %b | Contains `printf_b()`that printf '%'
+| [printf_o.c](https://github.com/tomvieilledent/holbertonschool-printf/blob/main/printf_o.c)         | %o | Contains `printf_o()`that printf '%' 
+| [printf_u.c](https://github.com/tomvieilledent/holbertonschool-printf/blob/main/printf_u.c)         | %u | Contains `printf_x()`that printf '%' 
+| [printf_x.c](https://github.com/tomvieilledent/holbertonschool-printf/blob/main/printf_x.c)         | %x | Contains `printf_X()`that printf '%' 
+| [printf_X.c](https://github.com/tomvieilledent/holbertonschool-printf/blob/main/printf_X.c)         | %X | Contains `printf_37()`that printf '%'
+| [printf_37.c](https://github.com/tomvieilledent/holbertonschool-printf/blob/main/printf_37.c)         | %% | Contains `printf_37()`that printf '%'                                |
 | [main.h](https://github.com/tomvieilledent/holbertonschool-printf/blob/main/main.h)             |      | Contains all the headers, prototypes and structure needed                    |
 | [man_3_printf](https://github.com/tomvieilledent/holbertonschool-printf/blob/main/man_3_printf)       |      | This is the man page of our _printf                                          |
-| [_putchar.c](https://github.com/tomvieilledent/holbertonschool-printf/blob/main/_putchar.c)         |      | Contains our own putchar command permitting to print a character              |
-| [flowchart](https://github.com/tomvieilledent/holbertonschool-printf/tree/main/flowchart)         |      | Contains all function's flowchart
+| [_putchar.c](https://github.com/tomvieilledent/holbertonschool-printf/blob/main/_putchar.c)         |      | Contains our own puchar command permitting to print a character
+| [flowchart](https://github.com/tomvieilledent/holbertonschool-printf/tree/main/flowchart)         |      | Contains all function's flowchart  
 
 ## Flowchart :ocean:
 
