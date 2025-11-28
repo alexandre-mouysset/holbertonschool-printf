@@ -10,7 +10,7 @@
 int printf_u(va_list arg_list)
 {
 int divisor = 1, digit, i = 0;
-unsigned long int number = va_arg(arg_list, int);
+unsigned long int number = va_arg(arg_list, unsigned int);
 
 
 if (number < 0)
