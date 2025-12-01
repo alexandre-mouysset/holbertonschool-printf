@@ -72,11 +72,15 @@ _printf(FORMAT, ARGUMENTS)
 `
 To print formated data, use different specifiers in your FORMAT to print:
 
- - `%c`: to print a char
- - `%s`: to print a string
- - `%%`: to print the character '%'
- - `%i`or `%d`: to print a int base 10
- - `%b`: to print in binary
+- %c: to print a char
+- %s: to print a string
+- %%: to print the character '%'
+- %i or %d: to print an int base 10
+- %b: to print in binary
+- %o: to print an octal number
+- %u: to print an unsigned int
+- %x: to print an hexadecimal number (lowercase)
+- %X: to print an hexadecimal number (uppercase)
  
 ## Exemples :exclamation:
 ```c
